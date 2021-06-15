@@ -1,0 +1,14 @@
+version: '2.2'
+services:
+    seqmds:
+        ports:
+            - 8050:8050
+        environment:
+            TZ: Europe/Warsaw
+        build: .
+        volumes:
+            - .:/app
+            - ./output:/output
+            - ./input:/input
+        mem_limit: 2gb
+        mem_reservation: 512m

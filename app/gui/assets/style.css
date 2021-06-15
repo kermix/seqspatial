@@ -1,0 +1,10 @@
+.dash-table-container .row{
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+
+.next-btn {
+    margin-right: 0;
+    margin-left: auto;
+}

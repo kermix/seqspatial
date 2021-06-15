@@ -1,0 +1,7 @@
+colorlover
+dash
+dash-bootstrap-components
+pandas
+tables
+scikit-learn
+numpy
